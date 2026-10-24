@@ -2,7 +2,7 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
-// Vite 配置：开发端口固定为 65532，与 src-tauri/tauri.conf.json 的 devUrl 保持一致
+// Vite 配置：开发端口固定为 1420（Tauri 官方默认端口，与 tauri.conf.json 的 devUrl 保持一致）
 export default defineConfig({
   plugins: [vue()],
   resolve: {
@@ -12,7 +12,7 @@ export default defineConfig({
   },
   clearScreen: false,
   server: {
-    port: 65532,
+    port: 1420,
     strictPort: true,
   },
   envPrefix: ["VITE_", "TAURI_"],

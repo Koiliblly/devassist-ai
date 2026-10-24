@@ -40,7 +40,7 @@
 
 ```bash
 npm install        # 安装前端依赖
-npm run tauri dev  # 启动桌面应用（开发端口固定 65532）
+npm run tauri dev  # 启动桌面应用（开发端口 1420）
 ```
 
 打包安装包：

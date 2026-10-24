@@ -40,7 +40,7 @@
 
 ```bash
 npm install        # install frontend dependencies
-npm run tauri dev  # launch the desktop app (dev server fixed at port 65532)
+npm run tauri dev  # launch the desktop app (dev server on port 1420)
 ```
 
 Build installers:
