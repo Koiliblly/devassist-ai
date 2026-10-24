@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "DevAssist AI 默认能力：允许主窗口使用 Tauri 核心 API",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
